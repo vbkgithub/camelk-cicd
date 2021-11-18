@@ -1,3 +1,7 @@
+// camel-k: language=java
+ 
+import org.apache.camel.builder.RouteBuilder;
+ 
 public class HelloCamelK extends RouteBuilder {
   @Override
   public void configure() throws Exception {
